@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C0BE11913A842A300D246EB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0BE11813A842A300D246EB /* Cocoa.framework */; };
+		6C0BE11B13A842A300D246EB /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0BE11A13A842A300D246EB /* ScreenSaver.framework */; };
+		6C0BE12513A842A300D246EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C0BE12313A842A300D246EB /* InfoPlist.strings */; };
+		6C0BE12813A842A300D246EB /* ZenView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C0BE12713A842A300D246EB /* ZenView.h */; };
+		6C0BE12A13A842A300D246EB /* ZenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0BE12913A842A300D246EB /* ZenView.m */; };
+		6C6A77A013A84EAF003F47C2 /* NSImage+MGCropExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6A779E13A84EAF003F47C2 /* NSImage+MGCropExtensions.h */; };
+		6C6A77A113A84EAF003F47C2 /* NSImage+MGCropExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A779F13A84EAF003F47C2 /* NSImage+MGCropExtensions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C0BE11513A842A300D246EB /* Zen.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Zen.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0BE11813A842A300D246EB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6C0BE11A13A842A300D246EB /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		6C0BE11D13A842A300D246EB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6C0BE11E13A842A300D246EB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6C0BE11F13A842A300D246EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C0BE12213A842A300D246EB /* Zen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Zen-Info.plist"; sourceTree = "<group>"; };
+		6C0BE12413A842A300D246EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C0BE12613A842A300D246EB /* Zen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zen-Prefix.pch"; sourceTree = "<group>"; };
+		6C0BE12713A842A300D246EB /* ZenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZenView.h; sourceTree = "<group>"; };
+		6C0BE12913A842A300D246EB /* ZenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZenView.m; sourceTree = "<group>"; };
+		6C6A779E13A84EAF003F47C2 /* NSImage+MGCropExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+MGCropExtensions.h"; sourceTree = "<group>"; };
+		6C6A779F13A84EAF003F47C2 /* NSImage+MGCropExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+MGCropExtensions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C0BE11013A842A300D246EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0BE11913A842A300D246EB /* Cocoa.framework in Frameworks */,
+				6C0BE11B13A842A300D246EB /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C0BE10813A842A200D246EB = {
+			isa = PBXGroup;
+			children = (
+				6C0BE12013A842A300D246EB /* Zen */,
+				6C0BE11713A842A300D246EB /* Frameworks */,
+				6C0BE11613A842A300D246EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C0BE11613A842A300D246EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C0BE11513A842A300D246EB /* Zen.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C0BE11713A842A300D246EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C0BE11813A842A300D246EB /* Cocoa.framework */,
+				6C0BE11A13A842A300D246EB /* ScreenSaver.framework */,
+				6C0BE11C13A842A300D246EB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C0BE11C13A842A300D246EB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C0BE11D13A842A300D246EB /* AppKit.framework */,
+				6C0BE11E13A842A300D246EB /* CoreData.framework */,
+				6C0BE11F13A842A300D246EB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6C0BE12013A842A300D246EB /* Zen */ = {
+			isa = PBXGroup;
+			children = (
+				6C6A779E13A84EAF003F47C2 /* NSImage+MGCropExtensions.h */,
+				6C6A779F13A84EAF003F47C2 /* NSImage+MGCropExtensions.m */,
+				6C0BE12713A842A300D246EB /* ZenView.h */,
+				6C0BE12913A842A300D246EB /* ZenView.m */,
+				6C0BE12113A842A300D246EB /* Supporting Files */,
+			);
+			name = Zen;
+			path = Zen;
+			sourceTree = "<group>";
+		};
+		6C0BE12113A842A300D246EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C0BE12213A842A300D246EB /* Zen-Info.plist */,
+				6C0BE12313A842A300D246EB /* InfoPlist.strings */,
+				6C0BE12613A842A300D246EB /* Zen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6C0BE11113A842A300D246EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0BE12813A842A300D246EB /* ZenView.h in Headers */,
+				6C6A77A013A84EAF003F47C2 /* NSImage+MGCropExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6C0BE11413A842A300D246EB /* Zen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C0BE12D13A842A300D246EB /* Build configuration list for PBXNativeTarget "Zen" */;
+			buildPhases = (
+				6C0BE10F13A842A300D246EB /* Sources */,
+				6C0BE11013A842A300D246EB /* Frameworks */,
+				6C0BE11113A842A300D246EB /* Headers */,
+				6C0BE11213A842A300D246EB /* Resources */,
+				6C0BE11313A842A300D246EB /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zen;
+			productName = Zen;
+			productReference = 6C0BE11513A842A300D246EB /* Zen.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C0BE10A13A842A200D246EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Cocoatype, LLC";
+			};
+			buildConfigurationList = 6C0BE10D13A842A200D246EB /* Build configuration list for PBXProject "Zen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6C0BE10813A842A200D246EB;
+			productRefGroup = 6C0BE11613A842A300D246EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C0BE11413A842A300D246EB /* Zen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C0BE11213A842A300D246EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0BE12513A842A300D246EB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		6C0BE11313A842A300D246EB /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C0BE10F13A842A300D246EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0BE12A13A842A300D246EB /* ZenView.m in Sources */,
+				6C6A77A113A84EAF003F47C2 /* NSImage+MGCropExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C0BE12313A842A300D246EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C0BE12413A842A300D246EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C0BE12B13A842A300D246EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6C0BE12C13A842A300D246EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6C0BE12E13A842A300D246EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zen/Zen-Prefix.pch";
+				INFOPLIST_FILE = "Zen/Zen-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = Zen;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		6C0BE12F13A842A300D246EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zen/Zen-Prefix.pch";
+				INFOPLIST_FILE = "Zen/Zen-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = Zen;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C0BE10D13A842A200D246EB /* Build configuration list for PBXProject "Zen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C0BE12B13A842A300D246EB /* Debug */,
+				6C0BE12C13A842A300D246EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C0BE12D13A842A300D246EB /* Build configuration list for PBXNativeTarget "Zen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C0BE12E13A842A300D246EB /* Debug */,
+				6C0BE12F13A842A300D246EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C0BE10A13A842A200D246EB /* Project object */;
+}
