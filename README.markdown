@@ -8,3 +8,5 @@ Zen is a minimalistic screensaver for Mac OS X. Zen displays only your desktop i
 
 Zen includes the "MGCropExtensions" code by [Matt Gemmell](http://mattgemmell.com/).
 ![Gemmell Inside](http://mattgemmell.com/images/gemmell_inside_wide_small.png)
+
+Thanks to [@justinvoss](https://twitter.com/#!/justinvoss) for the name.
